@@ -11,15 +11,15 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400' rel='stylesheet' type='text/css'>
 
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript">
+   <script type="text/javascript">
     $(function() {
         function rotate() {
-            $('#img-container div').last().fadeOut(1000, function() {
+            $('#img-container div').last().fadeOut(2000, function() {
                 $(this).insertBefore($('#img-container div').first()).show();
             });
         }
     
-        setInterval(rotate, 5000);
+        setInterval(rotate, 4000);
     });
   </script>
 </head>
@@ -82,13 +82,11 @@
       <p class="port"> Creating my own personal projects is a passion of mine.
         <br> By clicking the logos below, you will find some of my personal work that I've accomplished over the past year. </p>
 
-
       <div class="portfolio-item">
-        <a href="#" target="_blank"><img src="images/logo.png" alt="View more info" /></a>
-        <p>My current personal website</p>
-        <h6>
-        JavaScript, jQuery, HTML5, CSS3 and
-        <br> Adobe PhotoShop CS6
+        <a href="http://beboldbedaring.tumblr.com" target="_blank"><img src="images/tumblrlogo.png" alt="View more info" />
+        </a>
+        <p>My personal Tumblr profile</p>
+        <h6> JavaScript, jQuery, XHTML, HTML5, CSS and <br> Adobe PhotoShop CS6 
         </h6>
       </div>
 
@@ -107,10 +105,11 @@
       </div>
 
       <div class="portfolio-item">
-        <a href="http://beboldbedaring.tumblr.com" target="_blank"><img src="images/tumblrlogo.png" alt="View more info" />
-        </a>
-        <p>My personal Tumblr profile</p>
-        <h6> JavaScript, jQuery, XHTML, HTML5, CSS and <br> Adobe PhotoShop CS6 
+        <a href="#" target="_blank"><img src="images/logo.png" alt="View more info" /></a>
+        <p>My current personal website</p>
+        <h6>
+        JavaScript, jQuery, HTML5, CSS3 and
+        <br> Adobe PhotoShop CS6
         </h6>
       </div>
 
@@ -121,8 +120,6 @@
 
   <!-- START FOOTER -->
   <div id="footer">
-    <p id="copyright"> &copy; 2015 Margarita Fernandez. All Rights Reserved. </p>
-
 
     <ul class="social">
       <li>
@@ -138,6 +135,12 @@
         <a href="http://beboldbedaring.tumblr.com/" target="_blank" alt="Margarita's Tumblr"><img src="images/tumblr.png"></a>
       </li>
     </ul>
+
+    <p id="copyright"> &copy; 2015 Margarita Fernandez. All Rights Reserved.
+    </p>
+    <p id="original"> <img src="images/nyc.png">  
+    </p>
+  
   </div>
   <!-- END FOOTER -->
 
