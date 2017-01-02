@@ -188,19 +188,6 @@ a {
   #about {
     padding: 13% 7% 10% 7%;
   }
-  .portfolio-item {
-    display: inline-table;
-    position: relative;
-    padding: 0 0 7% 7%;
-    top: 200px;
-    transform: translateY(-50%);
-  }
-  .portfolio-item h6 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 200px
-  }
 }
 /* Landscape */
 
@@ -253,19 +240,6 @@ a {
   #about {
     padding: 13% 7% 10% 7%;
   }
-  .portfolio-item {
-    display: inline-table;
-    position: relative;
-    padding: 0 0 7% 7%;
-    top: 200px;
-    transform: translateY(-50%);
-  }
-  .portfolio-item h6 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 200px
-  }
 }
 /* Landscape */
 
@@ -299,19 +273,6 @@ a {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #about {
     padding: 13% 7% 10% 7%;
-  }
-  .portfolio-item {
-    display: inline-table;
-    position: relative;
-    padding: 0 0 10% 7%;
-    top: 200px;
-    transform: translateY(-50%);
-  }
-  .portfolio-item h6 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 200px
   }
 }
 /* Landscape */
@@ -347,19 +308,6 @@ a {
   #about {
     padding: 13% 7% 10% 7%;
   }
-  .portfolio-item {
-    display: inline-table;
-    position: relative;
-    padding: 0 0 7% 7%;
-    top: 200px;
-    transform: translateY(-50%);
-  }
-  .portfolio-item h6 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 200px
-  }
 }
 /* Landscape */
 
@@ -387,7 +335,78 @@ a {
     padding: 10% 80px 10% 80px;
   }
 }
+
+
+
 /* ------ END MEDIA - START PORTFOLIO ------- */
+
+
+/*  SECTIONS  */
+
+.maincontent {
+    clear: both;
+    width: 80%;
+    font-size: 0.8125em;
+    max-width: 92.3em;
+    margin: 0 auto;
+    padding: 1em 0px;
+    color: #333;
+    line-height: 1.5em;
+    position: relative;
+}
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 5% 0 2% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF FOUR  */
+
+.span_1_of_4 {
+  width: 32%;
+}
+
+
+.span_1_of_4 h6 {
+  color: #fff;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  
+    margin: 1% 0 1% 0%;
+    padding: 10% 0 10% 7%;
+    display: inline-table;
+    position: relative; }
+  .span_1_of_4 { width: 100%; }
+}
+
 
 #port-container {
   background-color: #444;
@@ -447,39 +466,7 @@ a {
   padding: 4% 5% 0 5%;
 }
 
-.portfolio-item {
-  background-color: #444;
-  width: 15%;
-  height: 100%;
-  padding-top: 10px;
-  text-align: center;
-  float: left;
-  margin: 8% -10% 7% 15%;
-}
 
-.portfolio-item h6 {
-  color: #fff;
-  font-style: italic;
-  font-weight: normal;
-  text-align: center;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-.portfolio-item a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.portfolio-item a:hover {
-  color: #444;
-}
-
-.portfolio-item p {
-  padding-top: 9%;
-}
 /* END PORTFOLIO - START FOOTER */
 
 #footer {
