@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Meet Margarita | Designer & Developer </title>
+  <meta name="designer" content="Margarita Fernandez" />
+  <meta name="description" content="Margarita Fernandez's personal website and portfolio." />
+  <meta name="keywords" content="portfolio, web designer, mobile designer, programming, coding, designer, codeacademy, margarita, ux designer" />
+  <link rel="shortcut icon" href="images/fav.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="main.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400' rel='stylesheet' type='text/css'>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script type="text/javascript">
+    $(function() {
+        function rotate() {
+            $('#img-container div').last().fadeOut(2000, function() {
+                $(this).insertBefore($('#img-container div').first()).show();
+            });
+        }
+    
+        setInterval(rotate, 4000);
+    });
+  </script>
+</head>
+
+
+<body>
+  <!-- START COVER -->
+  <header>
+
+    <nav class="nav-bar">
+      <div id="name">
+        MEET MARGARITA <span> | </span> DESIGNER & DEVELOPER
+      </div>
+
+      <ul class="links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio-content">Portfolio</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="cover">
+      <div id="logo">
+
+        <img src="images/coverlogo.png" alt="Cover Logo"/>
+      </div>
+
+
+    </div>
+
+    <div id="img-container">
+      <div id="img1"></div>
+      <div id="img2"></div>
+      <div id="img3"></div>
+    </div>
+
+  </header>
+  <!-- END COVER -->
+
+
+  <!-- START ABOUT ME -->
+
+  <div id="about">
+    <h1> about </h1>
+
+
+    <p> <img src="images/blackcircle.png" alt="Margarita's Photo" align="left" width="200px">Welcome! While native born in New York City, Margarita is currently living, learning and in love with <a href="http://en.wikipedia.org/wiki/New_York_City">Tampa, Florida.</a> At a very young age, her natural design creativity influenced her to seek a path where she can bring her ideas to life. Margarita is a Technology graduate of NPower, with Professional Development mentorship at Facebook, Microsoft and Ernst & Young in New York City. In addition, she has a strong background in Customer Service, along with traditional marketing and digital designing experience. Although, her focus lies in digital design where creating interactive consumer experiences drives her. As of now, she is continously seeking to be inspired, to envision the unlikely, to work hard for things that are worth it while always being surrounded by those who bring out the best in her. </p>
+<br><br>
+<center><a href="https://www.linkedin.com/in/margfernandez/">CLICK HERE TO VIEW MY LINKEDIN PROFILE.</a> </center> 
+  </div>
+
+  <!-- END ABOUT ME -->
+
+  <!-- START WORK -->
+  <div id="port-container">
+    <div id="portfolio-content">
+      <h1>portfolio</h1>
+
+      <p class="port"> Creating my own personal projects is a passion of mine.
+        <br> <b>By clicking the logos below,</b> you will find some of my personal work that I've accomplished over the past years. </p>
+
+<div class="section group">
+
+<!-- ROW 1!!!!! -->
+ 
+
+   <div class="col span_1_of_4">
+            <a href="https://margaritafern.github.io/capstone-ecommerce-site/"><img src="images/ringlogo.png" alt="Minimalist Rings" width="170px"/></a>
+           
+            <p>My E-commerce Project</p>
+            <h6> JavaScript, Bootstrap, HTML5, CSS <br> 
+              and Adobe PhotoShop CC </h6>
+  
+     </div>
+
+
+      <div class="col span_1_of_4">
+       <a class="lightbox" href="#goofy">
+              <img src="images/tumblrlogo.png" alt="Be Bold, Be Daring Tumblr" />
+            </a>
+            <div class="lightbox-target" id="goofy">
+              <img src="images/beboldbedaring.png" />
+              <a class="lightbox-close" href="#portfolio-content"></a>
+            </div>
+
+            <p>My Personal Tumblr Profile</p>
+            <h6> JavaScript, jQuery, HTML5, CSS <br> 
+              and Adobe PhotoShop CC </h6>
+      </div>
+
+
+      <div class="col span_1_of_4">
+     <a class="lightbox" href="#done">
+              <img src="images/thexx.png" alt="The XX Logo" />
+            </a>
+            <div class="lightbox-target" id="done">
+              <img src="images/websiteposter.png" />
+              <a class="lightbox-close" href="#portfolio-content"></a>
+            </div>
+
+            <p>Digital Band Poster for The XX</p>
+            <h6> Adobe Illustrator CC <br> 
+              and Adobe Photoshop CC </h6>
+      </div>
+
+
+      <div class="col span_1_of_4">
+     <a class="lightbox" href="#airbnb">
+              <img src="images/airbnb.png" alt="AirBnB Website" />
+            </a>
+            <div class="lightbox-target" id="airbnb">
+              <img src="images/airbnbwebpage.png" />
+              <a class="lightbox-close" href="#portfolio-content"></a>
+            </div>
+
+            <p>A Remake of Airbnb Website</p>
+            <h6> Bootstrap, HTML5, CSS3,
+              <br> Adobe Photoshop CC and Adobe Illustrator CC</h6>
+      </div>
+
+
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- END WORK -->
+
+
+  <!-- START FOOTER -->
+  <div id="footer">
+
+    <ul class="social">
+      <li>
+        <a href="mailto:dez.margarita@gmail.com" target="_blank" alt="Margarita's Email"><img src="images/mail.png" alt="Mail Image" /></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/margfernandez/" target="_blank" alt="Margarita's LinkedIn Profile"><img src="images/li.png" alt="LinkedIn Image" /></a>
+      </li>
+      <li>
+        <a href="" target="https://github.com/margaritafern" alt="Margarita's Github"><img src="images/git.png" alt="Github" /></a>
+      </li>
+    </ul>
+
+    <p id="copyright"> &copy; 2024 Margarita Fernandez. All Rights Reserved.
+    </p>
+  
+  </div>
+  <!-- END FOOTER -->
+
+</body>
+
+</html>
